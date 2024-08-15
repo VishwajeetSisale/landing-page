@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height: 10vh;
+    background:url(gym3.avif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+nav{
+    width:100%;
+    height: 100px;
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+.menu a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.register a{
+    text-decoration:none;
+    color:#fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius:8px;
+    background: indianred;
+}
+.register a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h.text span{
+    letter-spacing: 5px;
+    background: indianred;
+    color:#0fba5f;
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+section{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:#fff;
+}
+span{
+    letter-spacing: 5px;
+}
+h1{
+    font-size: 3.5em;
+color:darkorange;
+}
+b{
+    text-decoration: none;
+    background: indianred;
+    padding: 10px,20px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+.b b:hover:hover{
+    border: 1px solid indianred;
+    background: transparent;
+    color: #000;
+}
